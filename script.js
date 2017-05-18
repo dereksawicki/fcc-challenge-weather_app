@@ -32,7 +32,7 @@ $(document).ready(function() {
 				// Use the id to get the icon url
 				var iconUrl = "http://openweathermap.org/img/w/"+id+".png";
 				var icon_html = "<img src=\"" + iconUrl + "\"><br><p>"+skies+"</p>";
-				alert(icon_html);
+
 				$(".weather-icon").html(icon_html);
 
 				// Convert to farenheit
